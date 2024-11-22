@@ -16,7 +16,7 @@ const App = () => {
   const [yourExpense, setYourExpense] = useState("");
   const [payer, setPayer] = useState("You");
 
-  
+
   const handleSelectFriend = (friend) => {
     if (selectedFriend?.id === friend?.id) {
       setSelectedFriend(null);
@@ -25,6 +25,7 @@ const App = () => {
     }
   };
 
+  
   const handleSplitBill = () => {
     if (!billValue || !yourExpense) {
       alert("Please fill in all fields.");
