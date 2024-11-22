@@ -1,0 +1,40 @@
+.friend-list {
+    width: 300px;
+  }
+  
+  .friend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .friend-item.selected {
+    border: 2px solid gold;
+    background-color: #fffbea;
+  }
+  
+  .friend-item img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .friend-item p {
+    margin: 0;
+  }
+  
+  .friend-item .balance-positive {
+    color: green;
+  }
+  
+  .friend-item .balance-negative {
+    color: red;
+  }
+  
